@@ -29,7 +29,8 @@ class ElectricCar(Car):
     def fuel_type(self):
         return 'electric charge'
 
-
+# self is just  like this in python 
+# how to access them 
 # we have to link them car and my_car use keyword "self"
 # car = Car("tata", "safari")
 

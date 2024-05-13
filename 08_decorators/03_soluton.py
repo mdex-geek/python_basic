@@ -2,7 +2,7 @@ import time
 
 def cache(func):
     cache_value = {}
-    # print(cache_value)
+    print(cache_value)
     def wrapper(*args):
        if args in cache_value:
            return cache_value[args]
